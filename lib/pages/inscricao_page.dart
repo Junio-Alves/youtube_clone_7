@@ -1,21 +1,19 @@
 import 'package:flutter/material.dart';
 
-class Inscricao extends StatefulWidget {
-  const Inscricao({super.key});
+class Inscricoes extends StatefulWidget {
+  const Inscricoes({super.key});
 
   @override
-  State<Inscricao> createState() => _InscricaoState();
+  State<Inscricoes> createState() => _InscricoesState();
 }
 
-class _InscricaoState extends State<Inscricao> {
+class _InscricoesState extends State<Inscricoes> {
   @override
   Widget build(BuildContext context) {
     return const Center(
       child: Text(
         "Inscrições",
-        style: TextStyle(
-            fontSize: 25
-        ),
+        style: TextStyle(fontSize: 25),
       ),
     );
   }

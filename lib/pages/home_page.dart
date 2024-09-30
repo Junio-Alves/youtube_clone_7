@@ -23,7 +23,7 @@ class _HomePageState extends State<HomePage> {
         pesquisa: pesquisa,
       ),
       const EmAlta(),
-      const Inscricao(),
+      const Inscricoes(),
       const Biblioteca(),
     ];
     return Scaffold(
